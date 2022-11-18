@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.dog__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.dog__name {
+    text-align: center;
+}
+
+.dog__card {
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+    .dog__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
